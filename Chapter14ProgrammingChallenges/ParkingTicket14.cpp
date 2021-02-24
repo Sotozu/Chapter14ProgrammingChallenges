@@ -2,13 +2,14 @@
 #include <iostream>
 #include <iomanip>
 #include <cmath>
+
+
 ParkingTicket14::ParkingTicket14() {
 	hours_parked = 0;
 	total_amount = 0;
 	officer_name = "";
 	officer_number = 0;
 }
-
 
 //Overloaded Functions
 

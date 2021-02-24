@@ -27,15 +27,7 @@ DayofYearModification3::DayofYearModification3(int i, std::string user_month_inp
 
 //Function
 void DayofYearModification3::printDate() {
-	/*int find_day = day;
-	std::string date_string;
-	for (int i = 0; i < 12; i++) {
-		if (find_day <= numDaysMonth[i]) {
-			date_string = months[i];
-			break;
-		}
-		find_day -= numDaysMonth[i];
-	}*/
+
 
 	std::cout << month << " " << day << std::endl;
 }
